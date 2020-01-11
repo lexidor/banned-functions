@@ -1,0 +1,8 @@
+{
+    "require": {
+        "hhvm/hhvm-autoload": "^2.0",
+        "hhvm/hsl": "^4.36",
+        "hhvm/hsl-experimental": "^4.37",
+        "hhvm/type-assert": "^3.7"
+    }
+}

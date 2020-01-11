@@ -1,17 +1,18 @@
 {
-  "global": [
-    "array_values"
-  ],
-  "non_vendor": [
-    "count"
-  ],
-  "src": [
-    "some_unit_test_helper"
-  ],
-  "tests": [
-    "MyApp\\Config\\get_api_key"
-  ],
-  "vendor_path": "vendor/",
-  "src_path": "src/",
-  "tests_path": "tests/"
+    "global": [
+        "array_values",
+        "asdf"
+    ],
+    "non_vendor": [
+        "count"
+    ],
+    "src": [
+        "some_unit_test_helper"
+    ],
+    "tests": [
+        "MyApp\\Config\\get_api_key"
+    ],
+    "vendor_path": "vendor/",
+    "src_path": "src/",
+    "tests_path": "tests/"
 }

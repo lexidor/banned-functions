@@ -41,7 +41,8 @@ function find_banned_refs(TMasterConfig $config): dict<string, vec<SourceRef>> {
     Dict\map($map_of_ref_vecs, $ref_vec ==> Vec\filter($ref_vec, $predicate))
     |> Dict\filter($$, $refs ==> !C\is_empty($refs));
 
-  $global_errors = $find_banned_refs($banned_everywhere);
+  $global_errors = $find_banned_refs($banned_everywhere)
+    |> $clean_up_result($$, ($_) ==> true);
   $non_vendor_errors = $find_banned_refs($banned_in_non_vendor)
     |> $clean_up_result($$, $is_not_in($vendor_path));
   $src_errors = $find_banned_refs($banned_in_src)

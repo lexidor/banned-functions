@@ -5,5 +5,5 @@ namespace Lex\BannedFunctions;
 <<__EntryPoint>>
 async function main_async_UNSAFE(): Awaitable<noreturn> {
     require_once __DIR__.'/banned-functions.hack';
-    await hhast_inspect_main_async();
+    await main_async();
 }

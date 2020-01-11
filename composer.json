@@ -1,6 +1,7 @@
 {
   "name": "lexidor/banned-functions",
   "description": "Ban (built-in) functions from your Hack projects",
+  "license": "MIT",
     "require": {
         "hhvm/hhvm-autoload": "^2.0",
         "hhvm/hsl": "^4.36",
